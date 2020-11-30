@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46C47132574C6AB00BCCB21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C47122574C6AB00BCCB21 /* AppDelegate.m */; };
+		B46C47162574C6AB00BCCB21 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C47152574C6AB00BCCB21 /* SceneDelegate.m */; };
+		B46C47192574C6AB00BCCB21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C47182574C6AB00BCCB21 /* ViewController.m */; };
+		B46C471C2574C6AB00BCCB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C471A2574C6AB00BCCB21 /* Main.storyboard */; };
+		B46C471E2574C6AE00BCCB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46C471D2574C6AE00BCCB21 /* Assets.xcassets */; };
+		B46C47212574C6AE00BCCB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46C471F2574C6AE00BCCB21 /* LaunchScreen.storyboard */; };
+		B46C47242574C6AE00BCCB21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C47232574C6AE00BCCB21 /* main.m */; };
+		B46C472E2574C6AE00BCCB21 /* IJKPlayer_iOS_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C472D2574C6AE00BCCB21 /* IJKPlayer_iOS_demoTests.m */; };
+		B46C47392574C6AE00BCCB21 /* IJKPlayer_iOS_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C47382574C6AE00BCCB21 /* IJKPlayer_iOS_demoUITests.m */; };
+		B46C474B2574C6FB00BCCB21 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C474A2574C6FB00BCCB21 /* IJKMediaFramework.framework */; };
+		B46C47512574C73300BCCB21 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47502574C73300BCCB21 /* AudioToolbox.framework */; };
+		B46C47532574C73800BCCB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47522574C73800BCCB21 /* UIKit.framework */; };
+		B46C47552574C73F00BCCB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47542574C73F00BCCB21 /* CoreGraphics.framework */; };
+		B46C47572574C74500BCCB21 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47562574C74500BCCB21 /* AVFoundation.framework */; };
+		B46C47592574C74A00BCCB21 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47582574C74A00BCCB21 /* CoreMedia.framework */; };
+		B46C475B2574C74F00BCCB21 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C475A2574C74F00BCCB21 /* CoreVideo.framework */; };
+		B46C475F2574C76A00BCCB21 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C475E2574C76A00BCCB21 /* MediaPlayer.framework */; };
+		B46C47602574C77000BCCB21 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C475A2574C74F00BCCB21 /* CoreVideo.framework */; };
+		B46C47632574C78200BCCB21 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47622574C78200BCCB21 /* OpenGLES.framework */; };
+		B46C47652574C78B00BCCB21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47642574C78A00BCCB21 /* QuartzCore.framework */; };
+		B46C47672574C79000BCCB21 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47662574C79000BCCB21 /* VideoToolbox.framework */; };
+		B46C476C2574C7B300BCCB21 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C476B2574C7B300BCCB21 /* CoreServices.framework */; };
+		B46C47712574C7D100BCCB21 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C47702574C7D100BCCB21 /* Metal.framework */; };
+		B46C477C2574C8DA00BCCB21 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C474D2574C71300BCCB21 /* libc++.tbd */; };
+		B46C47802574C8E500BCCB21 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C474F2574C72B00BCCB21 /* libbz2.tbd */; };
+		B46C47842574C8F000BCCB21 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C474D2574C71300BCCB21 /* libc++.tbd */; };
+		B46C47882574C8FA00BCCB21 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C474E2574C72100BCCB21 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46C472A2574C6AE00BCCB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46C47062574C6AB00BCCB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46C470D2574C6AB00BCCB21;
+			remoteInfo = "IJKPlayer-iOS-demo";
+		};
+		B46C47352574C6AE00BCCB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46C47062574C6AB00BCCB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46C470D2574C6AB00BCCB21;
+			remoteInfo = "IJKPlayer-iOS-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46C470E2574C6AB00BCCB21 /* IJKPlayer-iOS-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IJKPlayer-iOS-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C47112574C6AB00BCCB21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B46C47122574C6AB00BCCB21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B46C47142574C6AB00BCCB21 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B46C47152574C6AB00BCCB21 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B46C47172574C6AB00BCCB21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B46C47182574C6AB00BCCB21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B46C471B2574C6AB00BCCB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B46C471D2574C6AE00BCCB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46C47202574C6AE00BCCB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B46C47222574C6AE00BCCB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46C47232574C6AE00BCCB21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B46C47292574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IJKPlayer-iOS-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C472D2574C6AE00BCCB21 /* IJKPlayer_iOS_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKPlayer_iOS_demoTests.m; sourceTree = "<group>"; };
+		B46C472F2574C6AE00BCCB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46C47342574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IJKPlayer-iOS-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C47382574C6AE00BCCB21 /* IJKPlayer_iOS_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKPlayer_iOS_demoUITests.m; sourceTree = "<group>"; };
+		B46C473A2574C6AE00BCCB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46C474A2574C6FB00BCCB21 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		B46C474D2574C71300BCCB21 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B46C474E2574C72100BCCB21 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B46C474F2574C72B00BCCB21 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		B46C47502574C73300BCCB21 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B46C47522574C73800BCCB21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B46C47542574C73F00BCCB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B46C47562574C74500BCCB21 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B46C47582574C74A00BCCB21 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B46C475A2574C74F00BCCB21 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B46C475C2574C75800BCCB21 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B46C475E2574C76A00BCCB21 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B46C47622574C78200BCCB21 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B46C47642574C78A00BCCB21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B46C47662574C79000BCCB21 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B46C476B2574C7B300BCCB21 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		B46C47702574C7D100BCCB21 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		B46C47782574C8AD00BCCB21 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46C470B2574C6AB00BCCB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C475B2574C74F00BCCB21 /* CoreVideo.framework in Frameworks */,
+				B46C47652574C78B00BCCB21 /* QuartzCore.framework in Frameworks */,
+				B46C47712574C7D100BCCB21 /* Metal.framework in Frameworks */,
+				B46C47592574C74A00BCCB21 /* CoreMedia.framework in Frameworks */,
+				B46C47842574C8F000BCCB21 /* libc++.tbd in Frameworks */,
+				B46C47552574C73F00BCCB21 /* CoreGraphics.framework in Frameworks */,
+				B46C474B2574C6FB00BCCB21 /* IJKMediaFramework.framework in Frameworks */,
+				B46C47882574C8FA00BCCB21 /* libz.tbd in Frameworks */,
+				B46C477C2574C8DA00BCCB21 /* libc++.tbd in Frameworks */,
+				B46C47802574C8E500BCCB21 /* libbz2.tbd in Frameworks */,
+				B46C47572574C74500BCCB21 /* AVFoundation.framework in Frameworks */,
+				B46C47532574C73800BCCB21 /* UIKit.framework in Frameworks */,
+				B46C47672574C79000BCCB21 /* VideoToolbox.framework in Frameworks */,
+				B46C475F2574C76A00BCCB21 /* MediaPlayer.framework in Frameworks */,
+				B46C47512574C73300BCCB21 /* AudioToolbox.framework in Frameworks */,
+				B46C47602574C77000BCCB21 /* CoreVideo.framework in Frameworks */,
+				B46C476C2574C7B300BCCB21 /* CoreServices.framework in Frameworks */,
+				B46C47632574C78200BCCB21 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C47262574C6AE00BCCB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C47312574C6AE00BCCB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46C47052574C6AB00BCCB21 = {
+			isa = PBXGroup;
+			children = (
+				B46C47102574C6AB00BCCB21 /* IJKPlayer-iOS-demo */,
+				B46C472C2574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests */,
+				B46C47372574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests */,
+				B46C470F2574C6AB00BCCB21 /* Products */,
+				B46C474C2574C71200BCCB21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B46C470F2574C6AB00BCCB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46C470E2574C6AB00BCCB21 /* IJKPlayer-iOS-demo.app */,
+				B46C47292574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests.xctest */,
+				B46C47342574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46C47102574C6AB00BCCB21 /* IJKPlayer-iOS-demo */ = {
+			isa = PBXGroup;
+			children = (
+				B46C47112574C6AB00BCCB21 /* AppDelegate.h */,
+				B46C47122574C6AB00BCCB21 /* AppDelegate.m */,
+				B46C47142574C6AB00BCCB21 /* SceneDelegate.h */,
+				B46C47152574C6AB00BCCB21 /* SceneDelegate.m */,
+				B46C47172574C6AB00BCCB21 /* ViewController.h */,
+				B46C47182574C6AB00BCCB21 /* ViewController.m */,
+				B46C47492574C6E600BCCB21 /* Lib */,
+				B46C471A2574C6AB00BCCB21 /* Main.storyboard */,
+				B46C471D2574C6AE00BCCB21 /* Assets.xcassets */,
+				B46C471F2574C6AE00BCCB21 /* LaunchScreen.storyboard */,
+				B46C47222574C6AE00BCCB21 /* Info.plist */,
+				B46C47232574C6AE00BCCB21 /* main.m */,
+			);
+			path = "IJKPlayer-iOS-demo";
+			sourceTree = "<group>";
+		};
+		B46C472C2574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46C472D2574C6AE00BCCB21 /* IJKPlayer_iOS_demoTests.m */,
+				B46C472F2574C6AE00BCCB21 /* Info.plist */,
+			);
+			path = "IJKPlayer-iOS-demoTests";
+			sourceTree = "<group>";
+		};
+		B46C47372574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46C47382574C6AE00BCCB21 /* IJKPlayer_iOS_demoUITests.m */,
+				B46C473A2574C6AE00BCCB21 /* Info.plist */,
+			);
+			path = "IJKPlayer-iOS-demoUITests";
+			sourceTree = "<group>";
+		};
+		B46C47492574C6E600BCCB21 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B46C474A2574C6FB00BCCB21 /* IJKMediaFramework.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B46C474C2574C71200BCCB21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B46C47782574C8AD00BCCB21 /* libc.tbd */,
+				B46C47702574C7D100BCCB21 /* Metal.framework */,
+				B46C476B2574C7B300BCCB21 /* CoreServices.framework */,
+				B46C47662574C79000BCCB21 /* VideoToolbox.framework */,
+				B46C47642574C78A00BCCB21 /* QuartzCore.framework */,
+				B46C47622574C78200BCCB21 /* OpenGLES.framework */,
+				B46C475E2574C76A00BCCB21 /* MediaPlayer.framework */,
+				B46C475C2574C75800BCCB21 /* MobileCoreServices.framework */,
+				B46C475A2574C74F00BCCB21 /* CoreVideo.framework */,
+				B46C47582574C74A00BCCB21 /* CoreMedia.framework */,
+				B46C47562574C74500BCCB21 /* AVFoundation.framework */,
+				B46C47542574C73F00BCCB21 /* CoreGraphics.framework */,
+				B46C47522574C73800BCCB21 /* UIKit.framework */,
+				B46C47502574C73300BCCB21 /* AudioToolbox.framework */,
+				B46C474F2574C72B00BCCB21 /* libbz2.tbd */,
+				B46C474E2574C72100BCCB21 /* libz.tbd */,
+				B46C474D2574C71300BCCB21 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46C470D2574C6AB00BCCB21 /* IJKPlayer-iOS-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46C473D2574C6AE00BCCB21 /* Build configuration list for PBXNativeTarget "IJKPlayer-iOS-demo" */;
+			buildPhases = (
+				B46C470A2574C6AB00BCCB21 /* Sources */,
+				B46C470B2574C6AB00BCCB21 /* Frameworks */,
+				B46C470C2574C6AB00BCCB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IJKPlayer-iOS-demo";
+			productName = "IJKPlayer-iOS-demo";
+			productReference = B46C470E2574C6AB00BCCB21 /* IJKPlayer-iOS-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46C47282574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46C47402574C6AE00BCCB21 /* Build configuration list for PBXNativeTarget "IJKPlayer-iOS-demoTests" */;
+			buildPhases = (
+				B46C47252574C6AE00BCCB21 /* Sources */,
+				B46C47262574C6AE00BCCB21 /* Frameworks */,
+				B46C47272574C6AE00BCCB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46C472B2574C6AE00BCCB21 /* PBXTargetDependency */,
+			);
+			name = "IJKPlayer-iOS-demoTests";
+			productName = "IJKPlayer-iOS-demoTests";
+			productReference = B46C47292574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46C47332574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46C47432574C6AE00BCCB21 /* Build configuration list for PBXNativeTarget "IJKPlayer-iOS-demoUITests" */;
+			buildPhases = (
+				B46C47302574C6AE00BCCB21 /* Sources */,
+				B46C47312574C6AE00BCCB21 /* Frameworks */,
+				B46C47322574C6AE00BCCB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46C47362574C6AE00BCCB21 /* PBXTargetDependency */,
+			);
+			name = "IJKPlayer-iOS-demoUITests";
+			productName = "IJKPlayer-iOS-demoUITests";
+			productReference = B46C47342574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46C47062574C6AB00BCCB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B46C470D2574C6AB00BCCB21 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					B46C47282574C6AE00BCCB21 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B46C470D2574C6AB00BCCB21;
+					};
+					B46C47332574C6AE00BCCB21 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B46C470D2574C6AB00BCCB21;
+					};
+				};
+			};
+			buildConfigurationList = B46C47092574C6AB00BCCB21 /* Build configuration list for PBXProject "IJKPlayer-iOS-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46C47052574C6AB00BCCB21;
+			productRefGroup = B46C470F2574C6AB00BCCB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46C470D2574C6AB00BCCB21 /* IJKPlayer-iOS-demo */,
+				B46C47282574C6AE00BCCB21 /* IJKPlayer-iOS-demoTests */,
+				B46C47332574C6AE00BCCB21 /* IJKPlayer-iOS-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46C470C2574C6AB00BCCB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C47212574C6AE00BCCB21 /* LaunchScreen.storyboard in Resources */,
+				B46C471E2574C6AE00BCCB21 /* Assets.xcassets in Resources */,
+				B46C471C2574C6AB00BCCB21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C47272574C6AE00BCCB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C47322574C6AE00BCCB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46C470A2574C6AB00BCCB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C47192574C6AB00BCCB21 /* ViewController.m in Sources */,
+				B46C47132574C6AB00BCCB21 /* AppDelegate.m in Sources */,
+				B46C47242574C6AE00BCCB21 /* main.m in Sources */,
+				B46C47162574C6AB00BCCB21 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C47252574C6AE00BCCB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C472E2574C6AE00BCCB21 /* IJKPlayer_iOS_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C47302574C6AE00BCCB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C47392574C6AE00BCCB21 /* IJKPlayer_iOS_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46C472B2574C6AE00BCCB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46C470D2574C6AB00BCCB21 /* IJKPlayer-iOS-demo */;
+			targetProxy = B46C472A2574C6AE00BCCB21 /* PBXContainerItemProxy */;
+		};
+		B46C47362574C6AE00BCCB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46C470D2574C6AB00BCCB21 /* IJKPlayer-iOS-demo */;
+			targetProxy = B46C47352574C6AE00BCCB21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B46C471A2574C6AB00BCCB21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C471B2574C6AB00BCCB21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B46C471F2574C6AE00BCCB21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46C47202574C6AE00BCCB21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B46C473B2574C6AE00BCCB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B46C473C2574C6AE00BCCB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46C473E2574C6AE00BCCB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5W7TN3R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKPlayer-iOS-demo/Lib",
+				);
+				INFOPLIST_FILE = "IJKPlayer-iOS-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deng.IJKPlayer-iOS-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46C473F2574C6AE00BCCB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5W7TN3R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKPlayer-iOS-demo/Lib",
+				);
+				INFOPLIST_FILE = "IJKPlayer-iOS-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deng.IJKPlayer-iOS-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46C47412574C6AE00BCCB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5W7TN3R;
+				INFOPLIST_FILE = "IJKPlayer-iOS-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deng.IJKPlayer-iOS-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJKPlayer-iOS-demo.app/IJKPlayer-iOS-demo";
+			};
+			name = Debug;
+		};
+		B46C47422574C6AE00BCCB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5W7TN3R;
+				INFOPLIST_FILE = "IJKPlayer-iOS-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deng.IJKPlayer-iOS-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJKPlayer-iOS-demo.app/IJKPlayer-iOS-demo";
+			};
+			name = Release;
+		};
+		B46C47442574C6AE00BCCB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5W7TN3R;
+				INFOPLIST_FILE = "IJKPlayer-iOS-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deng.IJKPlayer-iOS-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IJKPlayer-iOS-demo";
+			};
+			name = Debug;
+		};
+		B46C47452574C6AE00BCCB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F5W7TN3R;
+				INFOPLIST_FILE = "IJKPlayer-iOS-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deng.IJKPlayer-iOS-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IJKPlayer-iOS-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46C47092574C6AB00BCCB21 /* Build configuration list for PBXProject "IJKPlayer-iOS-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C473B2574C6AE00BCCB21 /* Debug */,
+				B46C473C2574C6AE00BCCB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46C473D2574C6AE00BCCB21 /* Build configuration list for PBXNativeTarget "IJKPlayer-iOS-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C473E2574C6AE00BCCB21 /* Debug */,
+				B46C473F2574C6AE00BCCB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46C47402574C6AE00BCCB21 /* Build configuration list for PBXNativeTarget "IJKPlayer-iOS-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C47412574C6AE00BCCB21 /* Debug */,
+				B46C47422574C6AE00BCCB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46C47432574C6AE00BCCB21 /* Build configuration list for PBXNativeTarget "IJKPlayer-iOS-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C47442574C6AE00BCCB21 /* Debug */,
+				B46C47452574C6AE00BCCB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46C47062574C6AB00BCCB21 /* Project object */;
+}
