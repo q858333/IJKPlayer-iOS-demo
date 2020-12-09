@@ -1,4 +1,4 @@
 # IJKPlayer-iOS-demo
 IJKPlayer
 
-demo中IJKMediaFramework.framework/IJKMediaFramework 文件不在因为改文件太大无法上传到git，许使用另一个工程生成framework替换
+demo中IJKMediaFramework.framework/IJKMediaFramework 文件不在因为改文件太大无法上传到git，需使用另一个工程生成framework替换
